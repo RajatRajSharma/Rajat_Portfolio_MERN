@@ -1,0 +1,60 @@
+.sidebar-section{
+    display: flex;
+    background-color: #1e1e1e;
+    height: 20.5em;
+    width: 100%;
+}
+
+.sidebar{
+    height: 100%;
+    background-color: #1a3345;
+    width: 4.5em;
+    position: fixed;
+}
+
+.back-gif{
+    background: url('https://media1.tenor.com/m/NqURjAGH6GYAAAAd/cat-code.gif') center center no-repeat;
+    width: 100%;
+    background-size: cover;
+    margin-left: 4.5em;
+}
+
+.sidebar-toggle{
+    width: 210px;
+    z-index: 1;
+}
+
+.sidebar-toggle-icons{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    cursor: pointer;
+}
+
+.sidebar-toggle-icons p svg{
+    color: white;
+    margin-top: 20px;
+    background-color: #df9963;
+    padding: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.flipped {
+    transform: scaleX(-1);
+}
+/* ------- Mobile View --------*/
+@media (max-width:1000px){
+    .sidebar{
+        display: none;
+    }
+    .sidebar-section{
+        background: url('https://media1.tenor.com/m/NqURjAGH6GYAAAAd/cat-code.gif') center center no-repeat;
+        background-size: cover;
+        height: 20em;
+    }
+    .back-gif{
+        margin: 0px;
+        padding: 0px;
+    }
+}

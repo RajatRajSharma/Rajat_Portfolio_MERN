@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+.contact{
+    padding-left: 5em;
+    margin-top: 2em;
+    width: 100%;
+    margin-bottom: 1em;
+}
+.contact .card0{
+    box-shadow: 0px 4px 8px 0px #757575;
+    border-radius: 2em;
+}
+.fill-line{
+    padding-left: 2em;
+}
+.fill-line .row{
+    width: 100%;
+    margin-left: 0.05em;
+}
+.card2{
+    margin: 0px;
+    margin-right: 1em;
+}
+.card2 h6{
+    font-size: 1.2em;
+}
+.contactme img{
+    height: 1.5em;
+}
+
+.border-line {
+    border-top: 1px solid #f90000; 
+    width: 1em;
+    height: 0;
+    margin: 0 10px;
+}
+::placeholder{
+    color: #cecece;
+    opacity: 1;
+    font-weight: 300;
+}
+input, textarea {
+    padding: 10px 12px;
+    border: 1px solid lightgray;
+    border-radius: 2em;
+    margin-top: 2px;
+    width: 100%;
+    color: #138781;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+.lorl{
+    margin: 1em 0em;
+}
+
+button:focus{
+    box-shadow: none;
+    outline-width: 0px;
+}
+.button{
+    background-color: #1e1e2c;
+    color: white;
+    border-radius: 2px;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 2em;
+}
+.button:hover{
+    background-color: #000;
+    color: white;
+}
+
+@media (max-width:1000px){
+    .contact{
+        padding: 0px;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        max-width: 96vw;
+    }
+    ::placeholder{
+        color: #a8a7a7;
+        opacity: 1;
+        font-weight: 400;
+    }
+    input, textarea {
+        padding: 5px 6px;
+        border: 1px solid lightgray;
+        border-radius: 2em;
+        margin-bottom: 1em;
+        width: 100%;
+        color: #138781;
+        font-size: 0.5rem;
+        letter-spacing: 1px;
+    }
+    .button{
+        font-size: 0.5em;
+        margin-top: 0em;
+    }
+    .button:hover{
+        background-color: #000;
+        color: white;
+    }
+    .card2 h6{
+        font-size: 1em;
+    }
+    .contactme img{
+        height: 1.3em;
+    }
+    .lorl{
+        margin: 0.3em 0em;
+    }
+}
+
+@media (max-width: 700px){
+    .contact{
+        margin: 0em 1em;
+        margin: 0em;
+        max-width: 96%;
+        margin-top: 2.2em;
+    }
+}
+
+    
+/*-------- DARK MODE ----------*/
+#dark .card0{
+    box-shadow: 5px 8px 12px 6px #dadada70;
+    border-radius: 2em;
+}
+#dark .contact .card{
+    background-color: #474747;
+}
+#dark .border-line{
+    border-top: 5px solid #ffa947;
+}
+#dark .button{
+    background-color: #ffa742;
+    color: black;
+}
+#dark .button:hover{
+    background-color: #d88c35;
+    color: rgb(255, 255, 255);
+}
+#dark .card2 h6{
+    font-size: 1.2em;
+    color: white;
+}
+#dark .or{
+    color: rgb(246, 231, 205);
+}

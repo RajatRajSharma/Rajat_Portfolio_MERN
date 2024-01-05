@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#dark{
+  background-color: #050505;
+  color: rgb(249, 240, 223);
+}

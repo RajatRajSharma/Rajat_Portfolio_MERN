@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+.Workexps{
+    max-width: 100vw;
+    padding: 0em 1em;
+    margin: -1.9em 0em;
+    padding-top: 1em;
+    padding-left: 5.5em;
+    background-color: rgb(28 115 215 / 20%);
+    border-radius: 20%;
+}
+.Workexps hr{
+    color: #f29f67;
+    width: 55vw;
+    margin: 8px auto;
+    border: 2px solid #f29f67;
+}
+.Workexps h2{
+    font-family: 'Yatra One', sans-serif;
+    font-size: 2.7em;
+    color: #ec9962;
+}
+
+@media (max-width:1000px){
+    .Workexps{
+        padding: 0em 1em;
+    }
+}

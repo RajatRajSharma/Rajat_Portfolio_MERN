@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+.education{
+    max-width: 100vw;
+    padding: 0em 1em;
+    margin: 0em;
+    padding-top: 1em;
+    padding-left: 5.5em;
+    background-color: rgb(201 174 110 / 20%);
+    border-radius: 20%;
+}
+.education hr{
+    color: #f29f67;
+    width: 55vw;
+    margin: 8px auto;
+    border: 2px solid #f29f67;
+}
+.education h2{
+    font-family: 'Rubik Doodle Shadow', sans-serif;
+    font-size: 2.8em;
+    color: #ec9962;
+}
+.vertical-timeline-element-title{
+    color: #e79660;
+}
+.vertical-timeline-element-subtitle{
+    color: #138781;
+}
+.VerticalTimelineElement .p{
+    color: #1e1e2c;
+}
+
+@media (max-width:1000px){
+    .education{
+        padding: 0em 1em;
+    }
+}
+
+/* ----- DARK MODE --------*/
+#dark .vertical-timeline-element-date {
+    color: rgb(245, 233, 212); 
+}
