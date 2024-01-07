@@ -6,6 +6,12 @@ Welcome to my MERN (MongoDB, Express.js, React, Node.js) portfolio website repos
 
 Visit the live portfolio: [Rajat Portfolio MERN](https://rajat-portfolio-mern.onrender.com/)
 
+## Video Demo
+
+[![Watch the video](thumbnail_img.png)](Rajat_github_portfolio.mp4)
+
+Click on the image above to watch the demo video.
+
 ## Features
 
 - **Responsive Design:** The website is designed to be responsive and looks great on various devices and screen sizes.
